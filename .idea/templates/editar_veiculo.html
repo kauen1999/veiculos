@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Editar Veículo</title>
+</head>
+<body>
+<h1>Editar Veículo</h1>
+<form method="POST" action="/editar/{{ veiculo._id }}">
+    Marca: <input type="text" name="marca" value="{{ veiculo.marca }}"><br>
+    Modelo: <input type="text" name="modelo" value="{{ veiculo.modelo }}"><br>
+    Ano: <input type="number" name="ano" value="{{ veiculo.ano }}"><br>
+    Categoria: <input type="text" name="categoria" value="{{ veiculo.categoria }}"><br>
+    Preço: <input type="number" name="preco" value="{{ veiculo.preco }}"><br>
+    Tipo: <input type="text" name="tipo" value="{{ veiculo.tipo }}"><br>
+    <input type="submit" value="Salvar Alterações">
+</form>
+<a href="/">Cancelar</a>
+</body>
+</html>

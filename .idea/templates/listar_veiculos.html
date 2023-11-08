@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Veículos</title>
+</head>
+<body>
+<h1>Lista de Veículos</h1>
+<ul>
+    {% for veiculo in veiculos %}
+    <li>
+        Marca: {{ veiculo.marca }}<br>
+        Modelo: {{ veiculo.modelo }}<br>
+        Ano: {{ veiculo.ano }}<br>
+        Categoria: {{ veiculo.categoria }}<br>
+        Preço: {{ veiculo.preco }}<br>
+        Tipo: {{ veiculo.tipo }}<br>
+        <a href="{{ url_for('editar_veiculo', veiculo_id=veiculo._id) }}">Editar</a> |
+        <a href="{{ url_for('excluir_veiculo', veiculo_id=veiculo._id) }}">Excluir</a>
+    </li>
+    {% endfor %}
+</ul>
+<a href="/inserir">Inserir Veículo</a>
+</body>
+</html>
