@@ -1,0 +1,11 @@
+_id,marca,modelo,ano,categoria,preco,tipo
+654ae557d4a57921fe857b97,Toyota,Corolla,2023,Sedan,30000,Carro
+654ae5d0f98dacbdab623635,Honda,CBR600RR,2022,Esportiva,12000,Moto
+654ae5e6f98dacbdab623636,Ford,F-150,2023,Picape,40000,Caminhão
+654ae5f2f98dacbdab623637,Chevrolet,Equinox,2022,SUV,35000,Carro
+654ae5fff98dacbdab623638,Boeing,747,2021,Avião,20000000,Avião
+654ae60ef98dacbdab623639,Harley-Davidson,Street Glide,2022,Cruiser,18000,Moto
+654ae61bf98dacbdab62363a,Mercedes-Benz,S-Class,2023,Sedan,60000,Carro
+654ae627f98dacbdab62363b,Dodge,Ram,2022,Picape,45000,Caminhão
+654ae634f98dacbdab62363c,Cessna,172,2021,Avião,100000,Avião
+654ae63ff98dacbdab62363d,Kawasaki,Ninja 300,2022,Esportiva,8000,Moto
